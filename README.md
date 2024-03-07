@@ -1,5 +1,11 @@
 A simple exapmle repo of using pnpm changesets and keeping package.json healthy in a monorepo environment.
 
+- Service 1 is a next.js application
+- Service 2 is a generic function (a lambda)
+- Service 3 is an express application
+
+All three are vastly different in how they are built.
+
 # AS A DEVELOPER I CAN
 
 - run pnpm i on the root, installing all dependancies
