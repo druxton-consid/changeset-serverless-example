@@ -3,7 +3,6 @@ A simple exapmle repo of using pnpm changesets and keeping package.json healthy 
 # AS A DEVELOPER I CAN
 
 - run pnpm i on the root, installing all dependancies
-- get warnings if i'm using different package versions
 - get warning if i'm in the root
 - only worry about the services individual dependancies
 - deploy all services using `sls deploy --stage [stage]`
