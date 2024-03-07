@@ -22,6 +22,7 @@ A simple exapmle repo of using pnpm changesets and keeping package.json healthy 
 
 # NOT INLCUDED BUT CAN BE DONE WITHOUT ISSUE
 
+- The actual CI/CD code. (i didn't want to set up AWS on a throwaway repo)
 - Jest extended configs (to provide tailored testing environments per service if alterations are required)
 - TSConfig extended configs (a root tsconfig that the services extend from)
 - ESlint/Prettier setup. (just sits in the root)
