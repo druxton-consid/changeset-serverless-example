@@ -10,6 +10,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^5.4.2"
-  }
+    "typescript": "^5.4.2",
+    "serverless-better-credentials": "^2.0.0"
+  },
+  "dependencies": {}
 }

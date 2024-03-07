@@ -1,0 +1,24 @@
+# AWS configuration detailed at: https://serverless.com/framework/docs/providers/aws/guide/serverless.yml/
+frameworkVersion: "3"
+
+service: service-1
+
+plugins:
+  - serverless-better-credentials
+  - serverless-esbuild
+
+package:
+  individually: true
+
+provider:
+  name: aws
+  stage: local
+  region: eu-north-1
+
+resources:
+  Resources:
+    Service1Bucket:
+      Type: "AWS::S3::Bucket"
+      Properties:
+        BucketName: service-1-bucket # specify your unique bucket name
+
