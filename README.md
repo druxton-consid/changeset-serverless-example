@@ -19,3 +19,9 @@ A simple exapmle repo of using pnpm changesets and keeping package.json healthy 
 
 - keep myself in the root and allow tests to be run across the whole application
 - have individual jest configs in each folder to provide a more tailored testing setup for each service
+
+# NOT INLCUDED BUT CAN BE DONE WITHOUT ISSUE
+
+- Jest extended configs (to provide tailored testing environments per service if alterations are required)
+- TSConfig extended configs (a root tsconfig that the services extend from)
+- ESlint/Prettier setup. (just sits in the root)
